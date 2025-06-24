@@ -1,8 +1,8 @@
 # Game: Rock, Paper, Scissors
 # Rule: Game and computer randomly guess a number: R for Rock, P for Paper, S for Scissors
-# If gamer = 2, computer = 1, then gamer win.
-# if gamer = 3, computer = 2, then gamer win.
-# if gamer = 1, computer = 3, then gamer win.
+# If gamer = Paper, computer = Rock, then gamer win.
+# if gamer = Scissors, computer = Paper, then gamer win.
+# if gamer = Rock, computer = Scissors, then gamer win.
 # if gamer = computer, then tie.
 # else, computer win.
 
