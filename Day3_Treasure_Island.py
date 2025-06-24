@@ -1,7 +1,7 @@
 # Day 3 Task：Create a game based on instruction
 
 def treasure_island(game_start):
-    direction = input("Welcome to Treasure Island. Your mission is to find the treasure.\n First Question: Left or right? Please enter l or r. ").strip().lower()
+    direction = input("Welcome to Treasure Island. Your mission is to find the treasure.\n You are at crossroad.First Question: Left or right? Please enter l or r. ").strip().lower()
     if direction == "l":
         print("Smart move.")
         action = input("Second Question: Swim or Wait? Enter S for Swim, W for wait ").strip().lower()
