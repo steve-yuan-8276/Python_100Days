@@ -8,7 +8,7 @@ def calculate_price(size, pepperoni, cheese):
     pepperoni_small_pizza_price = 2
     pepperoni_medium_large_pizza_price = 3
     extra_cheese_price = 1
-    
+
     total_price = 0
 
     if size == "S":
@@ -29,9 +29,10 @@ def calculate_price(size, pepperoni, cheese):
             total_price += pepperoni_medium_large_pizza_price
         if cheese == "Y":
             total_price += extra_cheese_price
-    
+
     # return the total price
     return total_price
+
 
 # Get the infos from customer, including: size of the pizza, pepperoni, extra_cheese
 print("Welcome to the Python Pizza Deliveries!")
