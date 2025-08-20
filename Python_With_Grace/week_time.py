@@ -1,11 +1,17 @@
 # Calculate how many minutes are in a week?
 
 # TODO: How many days are in a week?
-days = 7
+days = input("How many days are in a week? \nPlease enter the number: ")
 # TODO: How many hours are in a day?
-hours = 24
+hours = input(
+    "how many hours are in a day? \nPlease enter the correct answer: ")
 # TODO: How many minutes are in a hour?
-minutes = 60
+minutes = input(
+    "How many minutes are in a hour? \nPlease enter the correct answer: ")
+# TODO: convert days hours and minutes format from string into number
+days = int(days)
+hours = int(hours)
+minutes = int(minutes)
 # TODO: Formula: calculation
 total_minutes = minutes * hours * days
 # TODO: Print the results.
