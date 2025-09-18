@@ -1,0 +1,7 @@
+lenth = input("What is the lenth of the room?\nAnswer here:")
+width = input("What is the width of the room?\nAnswer here:")
+lenth = float(lenth)
+width = float(width)
+area = round(lenth * width)
+perimiter = round((lenth + width) * 2,1)
+print(f"The perimiter of the room will be {perimiter} and the area will be {area}.")
